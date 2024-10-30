@@ -1,0 +1,178 @@
+body{
+   font-family: arial;
+   margin: 0;
+   padding: 0;
+   background-color: #d8d6d6;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    color: #50b7f3;
+    font-family: h1;
+    background-color: #000000;
+    padding: 15px;
+}
+
+p{
+    padding: 0 10px;
+    
+}
+
+
+
+@font-face{
+    font-family: h1;
+    src: url(./birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
+@font-face{
+    font-family: alta;
+    src: url(./signatra/Signatra.ttf);
+}
+
+@font-face{
+    font-family: medio;
+   src: url(./the_students_teacher/TheStudentsTeacher-Regular.ttf);
+}
+
+
+
+.rica{
+    font-family: alta;
+    font-size: 50px;
+}
+
+.medio{
+    font-family: medio;
+    font-size: 50px;
+}
+
+.baixa{
+    font-family: arial;
+    font-size: 50px;
+}
+
+h1::before{
+    content: "Tema:";
+    color: #ff0000;
+   
+}
+
+.teste1{
+    transition: 0.3s;
+}
+
+.teste1:hover{
+    
+    transform: scale(1.20);
+}
+.teste2{
+    transition: 0.3s;
+}
+
+.teste2:hover{
+    
+    transform: scale(1.20);
+}
+.teste3{
+    transition: 0.3s;
+}
+
+.teste3:hover{
+    
+    transform: scale(1.20);
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+   
+}
+
+nav ul li{
+    margin: 0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    background-color: #50b7f3;
+    border-radius: 30px;
+    transition: 0.3s;
+    
+}
+
+nav ul li a:hover{
+    background-color: #2b5ce2;
+    border-radius: 30px;
+    transition: 0.3s;
+    transform: scale(2.15);
+}
+
+nav ul li a:active{
+    background-color: #8a2be2;
+}
+
+/* nav ul li a:visited{
+    background-color: #66ff00;
+} */
+
+/* p::first-letter{
+    color: #0000ff;
+    font-weight: 900;
+    font-size: 1.2em;
+} */
+
+p::selection{
+    background-color: #ff0000;
+    color: black;
+    
+}
+
+h2::selection{
+    background-color: #ce0303e5;
+    color: black;
+}
+
+
+ img{
+    height: 400px;
+    width: 400px;
+     margin-left:  50%;
+    transform: translate(-50%); 
+    
+} 
+
+
+
+.footer{
+font-family: cursive;
+    color: #000000;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    bottom: 0;
+    background-color: #8b0d0db4;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px #ff0000c5;
+
+   
+}
+
+
+@media (max-width:428px){
+
+    nav ul li{
+        margin: 0 6px;
+    }
+}
+
+
